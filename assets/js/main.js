@@ -15,5 +15,5 @@ else if (user_age < 18) {
 else {
     ticket_price = ticket_default * user_distance;
 }
-console.log(ticket_price);
+alert(ticket_price)
 
