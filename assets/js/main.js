@@ -15,5 +15,5 @@ else if (user_age < 18) {
 else {
     ticket_price = ticket_default * user_distance;
 }
-alert(ticket_price)
+alert(ticket_price.toFixed(2))
 
